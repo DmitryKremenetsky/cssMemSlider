@@ -36,16 +36,19 @@ body {
   height: 28.13rem;
 }
 
-.slides-btn-wrapper {
-  position: absolute;
-  width: 100%;
-  left: 0;
-  bottom: -40px;
-  z-index: 100;
-  text-align: center;
+.button-text-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
 }
 
-.slides-btn-wrapper label {
+.text {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+}
+
+.slides-btn label {
   display: inline-block;
   width: 1rem;
   height: 1rem;
@@ -56,4 +59,16 @@ body {
   border-radius: 50%;
   box-shadow: 0rem 0rem 0.13em rgb(0 0 0 / 80%);
   transition: background-color 0.2s;
+}
+
+.text-2 {
+  display: none;
+}
+
+.text-3 {
+  display: none;
+}
+
+.text-4 {
+  display: none;
 }
