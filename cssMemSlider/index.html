@@ -4,35 +4,39 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="../cssMemSlider/style.css">
+  <link rel="stylesheet" href="../cssMemSlider/reset.css">
   <link rel="shortcut icon" href="../cssMemSlider/assets/favicon/clown.png" type="image/x-icon">
   <title>Meme Slider</title>
 </head>
 <body>
-  <div class="slider">
-    <input type="radio" id="btn-1" name="toggle" checked>
-    <input type="radio" id="btn-2" name="toggle">
-    <input type="radio" id="btn-3" name="toggle">
-    <input type="radio" id="btn-4" name="toggle">
-    <div class="slides-wrapper">
-      <div class="slider-slides">
-        <img src="../cssMemSlider/assets/meme/delete-working-code.jpg" alt="delete">
-        <img src="../cssMemSlider/assets/meme/student1-watch-me.jpg" alt="student1">
-        <img src="../cssMemSlider/assets/meme/watchDeploy.jpg" alt="deploy">
-        <img src="../cssMemSlider/assets/meme/women.jpg" alt="women">
+  <div class="slider-wrapper">
+    <div class="slider">
+      <input type="radio" id="btn-1" name="toggle" checked>
+      <input type="radio" id="btn-2" name="toggle">
+      <input type="radio" id="btn-3" name="toggle">
+      <input type="radio" id="btn-4" name="toggle">
+      <div class="slides-wrapper">
+        <div class="slider-slides">
+          <img src="../cssMemSlider/assets/meme/delete-working-code.jpg" alt="delete">
+          <img src="../cssMemSlider/assets/meme/student1-watch-me.jpg" alt="student1">
+          <img src="../cssMemSlider/assets/meme/watchDeploy.jpg" alt="deploy">
+          <img src="../cssMemSlider/assets/meme/women.jpg" alt="women">
+        </div>
       </div>
-    </div>
-    <div class="button-text-wrapper">
-      <div class="text text-1">Code deleted but not defeated</div>
-      <div class="text text-2">Student1 cheking my work</div>
-      <div class="text text-3">One second before the disaster</div>
-      <div class="text text-4">when the code must include classes</div>
-      <div class="slides-btn">
-        <label for="btn-1"></label>
-        <label for="btn-2"></label>
-        <label for="btn-3"></label>
-        <label for="btn-4"></label>
+      <div class="footer-block">
+        <div class="text-wrapper">
+          <p class="text">Code deleted but not defeated</p>
+          <p class="text">Student1 cheking my work</p>
+          <p class="text">One second before the disaster</p>
+          <p class="text">When the code must include classes</p>
+        </div>
+        <div class="slides-btn">
+          <label class="panel-1" for="btn-1"></label>
+          <label class="panel-2" for="btn-2"></label>
+          <label class="panel-3" for="btn-3"></label>
+          <label class="panel-4" for="btn-4"></label>
+        </div>
       </div>
     </div>
   </div>
