@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../cssMemSlider/style.css">
   <link rel="stylesheet" href="../cssMemSlider/reset.css">
   <link rel="shortcut icon" href="../cssMemSlider/assets/favicon/clown.png" type="image/x-icon">
+  <link rel="stylesheet" href="../cssMemSlider/style.css">
   <title>Meme Slider</title>
 </head>
 <body>
-  <div class="slider-wrapper">
+  <section class="slider-wrapper">
     <div class="slider">
       <input type="radio" id="btn-1" name="toggle" checked>
       <input type="radio" id="btn-2" name="toggle">
@@ -18,10 +18,18 @@
       <input type="radio" id="btn-4" name="toggle">
       <div class="slides-wrapper">
         <div class="slider-slides">
-          <img src="../cssMemSlider/assets/meme/delete-working-code.jpg" alt="delete">
-          <img src="../cssMemSlider/assets/meme/student1-watch-me.jpg" alt="student1">
-          <img src="../cssMemSlider/assets/meme/watchDeploy.jpg" alt="deploy">
-          <img src="../cssMemSlider/assets/meme/women.jpg" alt="women">
+          <div class="image-wrapper">
+            <img class="image"" src="../cssMemSlider/assets/meme/delete-working-code.jpg" alt="delete">
+          </div>
+          <div class="image-wrapper">
+            <img class="image" src="../cssMemSlider/assets/meme/student1-watch-me.jpg" alt="student1">
+          </div>
+          <div class="image-wrapper">
+            <img class="image" src="../cssMemSlider/assets/meme/watchDeploy.jpg" alt="deploy">
+          </div>
+          <div class="image-wrapper">
+            <img class="image" src="../cssMemSlider/assets/meme/women.jpg" alt="women">
+          </div>
         </div>
       </div>
       <div class="footer-block">
@@ -39,6 +47,6 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </body>
 </html>
