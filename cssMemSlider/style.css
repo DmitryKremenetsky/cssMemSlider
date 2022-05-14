@@ -124,11 +124,30 @@ body, html {
     font-size: calc(100vw / 32);
   }
 
-  .image {
-    width: calc(100vw);
+  .image-wrapper:nth-child(2) {
+    padding-right: 1.9rem;
+    padding-left: 2.5rem;
+  }
+
+  .image-wrapper:last-child {
+    padding-left: 1.9rem;
   }
 
   .footer-block {
-    flex-direction: column;
+    flex-direction: column-reverse;
+    align-items: normal;
+  }
+
+  .footer-block .text-wrapper {
+    margin-left: 2rem;
+  }
+
+  .text:nth-child(2) {
+    margin-right: 1.26rem;
+  }
+
+  .slides-btn {
+    margin-left: 42%;
+    margin-bottom: 1rem;
   }
 } 
