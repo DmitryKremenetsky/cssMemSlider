@@ -64,14 +64,29 @@ body, html {
   margin-right: 1.22rem;
 }
 
+.slides-btn {
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+
 .slides-btn label {
-  display: inline-block;
+  display: flex;
   width: 0.5rem;
   height: 0.5rem;
   background: #ccc;
   cursor: pointer;
   border: 0.25rem solid white;
   border-radius: 50%;
+}
+
+span {
+  height: 1.4rem;
+  width: 100%;
+}
+
+.panel {
+  margin: 0.2rem;
 }
 
 .panel:hover {
